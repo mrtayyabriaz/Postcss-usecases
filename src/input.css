@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(141, 0, 0);
+}
+h1{
+    color:#ffff;
+}
+input::placeholder{
+    color:green;
+}
