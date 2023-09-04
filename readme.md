@@ -33,15 +33,12 @@ npm i -D autoprefixer
 
 # Add postcss.config.js file in root
 
-postcss.config.js
+ [ postcss.config.js ]
 
 ## tell postcss that which plugin is you are going to use by this code e.g for autoprefixer in postcss.config.js
 
 module.exports = {
-    plugins: [
-        require('autoprefixer')
-        
-        ]
+    plugins: [require('autoprefixer')]
 };
 
 ### test using input::placeholder{color:green}
