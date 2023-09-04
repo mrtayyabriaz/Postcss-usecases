@@ -26,7 +26,7 @@ npm i -D postcss postcss-cli
 ```
 
 
-### test by runnong on cmd
+### test by running this on cmd
 
 ```bash
   npm run build:css
@@ -46,7 +46,7 @@ npm i -D postcss postcss-cli
 
 `ctrl C` to exit to CMD
 
-# now install prefixer to minifi css
+# Install prefixer to add prefixers automatically
 
 ```bash
   npm i -D autoprefixer
@@ -56,7 +56,8 @@ npm i -D postcss postcss-cli
 
 `postcss.config.js`
 
-## tell postcss that which plugin is you are going to use by this code e.g for autoprefixer in postcss.config.js
+## tell postcss that which plugin is you are going to use by adding this code in `postcss.config.js`
+### e.g for `autoprefixer`
 
 ```javascript
 module.exports = {
@@ -64,7 +65,10 @@ module.exports = {
 };
 ```
 
-### test using input::placeholder{color:green}
+### test it using 
+```bash
+input::placeholder{color:green}
+```
 
 # install postcss-preset-env for custom selectors,media quries,nesting
 
@@ -105,4 +109,10 @@ require('precss'),
 
 ```javascript
 require('cssnano'),
+```
+
+# Enjoy
+
+```bash
+npm run watch:css
 ```
