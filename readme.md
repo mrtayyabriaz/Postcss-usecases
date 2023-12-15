@@ -6,7 +6,7 @@ tell you how to initialize postcss and use some of its plugins
 # initialize
 
 ```bash
-npm init
+npm install
 ```
 do some yes yes yes
 
